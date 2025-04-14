@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, button { 
+    margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; 
+} 
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none; 
+    color: inherit;         
+    cursor: pointer;        
+}
+a:visited {
+    color: inherit; 
+}
+a:focus,a:hover,a:active {
+text-decoration: none;
+color: inherit;
+}
+   
+
+
+
+:root {
+/* 폰트 사이즈 */
+--fontsize-12: 12px;
+--fontsize-13: 13px;
+--fontsize-14: 14px;
+--fontsize-15: 15px;
+--fontsize-16: 16px;
+/* 가로 사이즈 */
+--width-20: 20%;
+--width-30: 30%;
+--width-40: 40%;
+--width-60: 60%;
+--width-70: 70%;
+--width-80: 80%;
+--width-90: 90%;
+--width-100: 100%;
+/* 컬러 */
+--color-white: #ffffff;
+--color-white-50: rgba(255, 255, 255, 0.5);
+--color-darkgray: #222222;
+}
+
+/* 공통 */
+*[onclick] { cursor: pointer; }
+.w-20 { width: var(--width-20); }
+.w-30 { width: var(--width-30); }
+.w-40 { width: var(--width-40); }
+.w-60 { width: var(--width-60); }
+.w-70 { width: var(--width-70); }
+.w-80 { width: var(--width-80); }
+.w-90 { width: var(--width-90); }
+.w-100 { width: var(--width-100); }
+.text-start { text-align: left; }
+.text-center { text-align: center; }
+.text-end { text-align: end; }
+.display-none{ display: none; }
