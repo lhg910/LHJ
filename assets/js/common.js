@@ -4,10 +4,17 @@ $('.page-top').click(function () {
   });
 
 // all :: li url
+// $('[data-link]').css('cursor', 'pointer').on('click', function () {
+//     const url = $(this).data('link');
+//     window.location.href = url;
+// });  
+
+const basePath = '/LHJ/';
 $('[data-link]').css('cursor', 'pointer').on('click', function () {
-    const url = $(this).data('link');
+    const page = $(this).data('link');
+    const url = page.startsWith('/') ? page : basePath + page;
     window.location.href = url;
-});  
+});
 
 // all :: header
   $(window).on('scroll', function () {
