@@ -1,1 +1,2 @@
-/*    /LHJ.html   200
+/LHJ/assets/*   /LHJ/assets/:splat   200
+/LHJ/*          /LHJ.html            200
