@@ -427,7 +427,7 @@ article main.sub h2{
 /* 미디어쿼리 */
 @media (max-width: 1440px) {
     .wrap .container{
-        padding: 0 2.5rem;
+        padding: 0 2rem;
     }
     .tab-content ul{
         column-count: 2;
@@ -489,6 +489,10 @@ article main.sub h2{
     }
     .tab-1 ul li{
         width: 100% !important;
+    }
+    .wrap .container .container-img[data-type=about-img] img{
+        padding: 10px;
+        box-shadow: none;
     }
 }
 /* //미디어쿼리 */
