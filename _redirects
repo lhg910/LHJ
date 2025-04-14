@@ -1,1 +1,5 @@
+# JS, CSS, 이미지 등은 redirect 안 하도록 예외 처리
+/assets/*  /assets/:splat   200
+
+# 나머지는 모두 SPA 라우팅으로 LHJ.html 응답
 /*    /LHJ.html   200
